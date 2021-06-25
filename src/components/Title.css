@@ -1,0 +1,12 @@
+.project__item {
+  display: inline-block;
+  margin: 0 2rem;
+}
+.project__item:last-child {
+  margin-right: 0;
+}
+.project__title {
+  font-size: 5rem;
+  color: #eee;
+  font-weight: 300;
+}
