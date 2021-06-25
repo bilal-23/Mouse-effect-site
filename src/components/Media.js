@@ -10,8 +10,8 @@ const Media = ({ url, active, x, y }) => {
                 height: targetRef.current.offsetHeight
             });
         }
-    }, []);
-    console.log(dimensions)
+    }, [targetRef]);
+    console.log(targetRef)
     return (
         <img src={url}
             ref={targetRef}
