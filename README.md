@@ -3,7 +3,7 @@ A hiver effect in which image will be visible on hovering over the text.
 
 ## video
 
-https://user-images.githubusercontent.com/71442068/123434897-9abbe200-d5ea-11eb-96e0-de5863e37c75.mp4
+[Example](https://user-images.githubusercontent.com/71442068/123434897-9abbe200-d5ea-11eb-96e0-de5863e37c75.mp4)
 
 ## Getting Started 🚀
 
