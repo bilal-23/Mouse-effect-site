@@ -12,6 +12,7 @@ const Media = ({ url, active, x, y }) => {
             });
         }
     }, []);
+    console.log("dimenstions", dimensions)
     return (
         <img src={url}
             ref={targetRef}
