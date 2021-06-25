@@ -2,11 +2,23 @@
   display: inline-block;
   margin: 0 2rem;
 }
+.project__item:hover .project__title {
+  cursor: pointer;
+  opacity: 1;
+}
 .project__item:last-child {
   margin-right: 0;
 }
+
 .project__title {
   font-size: 5rem;
   color: #eee;
   font-weight: 300;
+  transition: opacity 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+}
+.project__title:after {
+  content: ",";
+}
+.project__item:last-child > .project__title::after {
+  content: "";
 }
