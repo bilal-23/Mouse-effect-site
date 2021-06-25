@@ -1,10 +1,13 @@
 import { useState } from 'react'
-import './App.css';
+import useMousePos from './hooks/use-mousePos';
 import Title from './components/Title';
 import sampleData from './utils/sampleData';
 import Media from './components/Media';
+import './App.css';
 function App() {
   const [activeIndex, setActiveIndex] = useState(-1);
+  const { x, y } = useMousePos();
+  console.log(x, y)
   return (
     <div className="page-wrapper">
       <div className="project__list">
