@@ -1,5 +1,5 @@
 # Text Hover Effect
-A hiver effect in which image will be visible on hovering over the text.
+An effect in which image will be visible on hovering over the text.
 
 ## Video 🎥
   
