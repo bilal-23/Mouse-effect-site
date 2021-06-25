@@ -29,7 +29,7 @@ const Media = ({ url, active, x, y }) => {
             ref={ref}
             className={`${active && 'is-active'}`}
             alt="sample data"
-            style={{ transform: 'translate(' + (x - width / 2) + 'px,' + (y - height / 2) + 'px)' }}
+            style={{ transform: 'translate(' + (x - (width / 2)) + 'px,' + (y - (height / 2)) + 'px)' }}
         />
     )
 
