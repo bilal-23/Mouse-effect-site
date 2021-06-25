@@ -1,6 +1,7 @@
 .project__item {
   display: inline-block;
   margin: 0 2rem;
+  z-index: 2;
 }
 .project__item:hover .project__title {
   cursor: pointer;
