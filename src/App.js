@@ -4,10 +4,10 @@ import Title from './components/Title';
 import sampleData from './utils/sampleData';
 import Media from './components/Media';
 import './App.css';
+
 function App() {
   const [activeIndex, setActiveIndex] = useState(-1);
   const { x, y } = useMousePos();
-  console.log(x, y)
   return (
     <div className="page-wrapper">
       <div className="project__list">
@@ -17,7 +17,9 @@ function App() {
       <div className="project__media">
         {sampleData.map((item, index) => {
           const isActive = index === activeIndex;
-          return <Media url={item.mediaUrl} key={index} active={isActive} />
+          const xPos = isActive ? x : 0;
+          const yPos = isActive ? y : 0;
+          return <Media url={item.mediaUrl} key={index} active={isActive} x={xPos} y={yPos} />
         })}
 
       </div>

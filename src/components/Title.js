@@ -1,4 +1,3 @@
-import React from 'react'
 import './Title.css';
 const title = ({ index, title, setActiveIndex }) => {
     return (
