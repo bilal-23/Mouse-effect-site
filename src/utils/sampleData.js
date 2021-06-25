@@ -1,7 +1,7 @@
 const sampleData = [
     {
         title: "Pineapple",
-        mediaUrl: "../images/pineapple.jpg",
+        mediaUrl: "./images/pineapple.jpg",
     },
     {
         title: "Green Peas",
