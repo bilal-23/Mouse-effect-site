@@ -5,13 +5,13 @@ const Media = ({ url, active, x, y }) => {
     const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
     useEffect(() => {
         if (targetRef.current) {
+            console.log('workking')
             setDimensions({
                 width: targetRef.current.offsetWidth,
                 height: targetRef.current.offsetHeight
             });
         }
-    }, [targetRef]);
-    console.log(targetRef)
+    }, []);
     return (
         <img src={url}
             ref={targetRef}
