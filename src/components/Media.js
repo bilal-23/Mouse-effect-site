@@ -24,7 +24,6 @@ const useSize = () => {
 
 const Media = ({ url, active, x, y }) => {
     const [ref, { width, height }] = useSize();
-    console.log(width, height)
     return (
         <img src={url}
             ref={ref}
